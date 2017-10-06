@@ -1,0 +1,32 @@
+#one{
+	font-family:apple chancery;
+}
+
+#two{
+	font-family:courier;
+}
+
+img{
+	border-radius:10px;
+}
+
+.three{
+	width:50px;
+	height:50px;
+}
+
+#four{
+	padding:20px;
+	float:right;
+}
+h1{
+	color:#ff6666;
+	text-decoration:underline;
+	border:dotted;
+	border-color:#80ccff;
+	text-align:center;
+}
+
+#text{
+	text-align:center;
+}
