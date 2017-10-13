@@ -1,10 +1,10 @@
 /*
 
-1. Text shadow for Header h1
-2. Rounded borders on images
-3.
-4.
-5.
+1. Text shadow for Header h1.
+2. Rounded borders on images.
+3. When hovering over links, changes the color to gold. 
+4. Added grooved, gold outline to all divs
+5. Made links clickable blocks instead of the having it be clickable on words only.
 
 
 */
@@ -13,7 +13,7 @@
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	border: solid 8px black;
 	text-align: center;
 }
@@ -33,7 +33,7 @@
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	border: solid 8px black;
 	text-align: center;
 	padding-bottom: 15px;
@@ -71,6 +71,7 @@ ul {
 
 div {
 	background-color: #8E41D5;
+	outline: groove 10px #FFBC00;
 }
 body {
 	background-image: url('dark_wood.png');
@@ -80,8 +81,13 @@ a {
 	color: white;
 	font-weight: bold;
 	font-size: 24px;
+	display: block;
 }
 
 img {
 	border-radius: 25px;
+}
+
+a:hover {
+    color: #FFBC00;
 }
