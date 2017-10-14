@@ -1,0 +1,41 @@
+h2 {
+	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(bone.jpg) 35 round;
+	text-align: center;
+	font-family: EB Garamond;
+	font-size: 30px;
+	background-color: white;
+}
+
+legend {
+	font-size: 25px;
+	font-family: EB Garamond;
+	font-weight: bold;
+}
+
+label {
+	font-weight: bold;
+	font-family: News Cycle;
+}
+
+fieldset {
+	background-color: white;
+}
+
+body {
+	background-image: url('paws background.jpeg');
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 5px;
+	padding-top: 0px;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	background-color: #0099ff;
+}
