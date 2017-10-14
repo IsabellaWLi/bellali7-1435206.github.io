@@ -21,6 +21,9 @@ label {
 
 fieldset {
 	background-color: white;
+	border-style: dotted;
+	border-width: thick;
+
 }
 
 body {
